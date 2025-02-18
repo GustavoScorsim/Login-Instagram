@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonte/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+h1{
+    font-size: 10vw;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+#erro{
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 30px;
+}
